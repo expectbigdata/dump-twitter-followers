@@ -1,6 +1,10 @@
 import os
 from configparser import ConfigParser
 
+"""
+Slightly modified from TweetRc class found in python-twitter's examples
+(https://github.com/bear/python-twitter/blob/master/examples/tweet.py)
+"""
 class TweetRc(object):
 	def __init__(self, rcPath):
 		self._config = None
