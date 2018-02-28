@@ -11,6 +11,7 @@ Unlike other similar solutions, dumpTwitterFollowers.py features:
 * Ability to specify multiple twitter usernames through cmd line or inside a given file.
 * Automatically retries on recoverable disconnect errors.
 * Optionally runs output CSV through gzip compression (where available).
+* Excel-friendly file format.
 
 ## Dependencies
 You may need to install the following dependencies.
